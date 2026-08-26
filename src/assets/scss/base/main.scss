@@ -82,3 +82,9 @@ label {
 h1 {
   font-family: Inter;
 }
+
+.hidden {
+  font-size: 0;
+  opacity: 0;
+  visibility: hidden;
+}
