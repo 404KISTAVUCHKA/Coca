@@ -3,7 +3,7 @@
   position: relative;
 
   @include mini-desktop {
-    padding: 67px 0 121px;
+    padding: 77px 0 121px;
   }
 
   @include mobile {
@@ -72,7 +72,7 @@
   }
 
   &__left {
-    max-width: 599px;
+    max-width: 617px;
   }
 
   &__title {
@@ -105,6 +105,12 @@
 
   &__subtitle {
     margin-bottom: 69px;
+
+    & br {
+      @include mini-desktop {
+        display: none;
+      }
+    }
   }
 
   &__form {
@@ -235,11 +241,12 @@
       }
     }
     &-body {
-      &-th {
+      &-td {
         font-weight: 700;
         font-size: 20px;
         line-height: 130%;
         color: #fff;
+        white-space: nowrap;
 
         &:nth-child(1) {
           padding-right: 80px;
@@ -255,13 +262,13 @@
         &--green {
           color: #60d39c;
           &::before {
-            background: url(../../../images/icons/arrow-up_icon.svg);
+            background: url(./images/icons/hero/arrow-up_icon.svg);
           }
         }
         &--red {
           color: #e35454;
           &::before {
-            background: url(../../../images/icons/arrow-down_icon.svg);
+            background: url(./images/icons/hero/arrow-down_icon.svg);
           }
         }
         &--green::before,
