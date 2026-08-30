@@ -175,18 +175,18 @@
       max-width: 320px;
     }
 
+    &-title {
+      margin-bottom: 16px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: -0.03em;
+      color: #1d1e25;
+    }
+
     &-img {
       @include small-desktop {
         max-width: 280px;
-      }
-
-      &-title {
-        margin-bottom: 16px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: -0.03em;
-        color: #1d1e25;
       }
     }
   }
