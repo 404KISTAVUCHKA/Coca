@@ -216,7 +216,7 @@
       &::before {
         content: '';
         display: inline-block;
-        background: url(../../../images/icons/pricing/pricing-tick-icon.svg);
+        background: url('/images/icons/pricing/pricing-tick-icon.svg');
         width: 20px;
         height: 20px;
         margin-right: 10px;
@@ -235,7 +235,7 @@
         text-decoration: line-through;
         color: var(--neutral-color-150);
         &::before {
-          background: url(../../../images/icons/pricing/pricing-tick-inaccess-icon.svg);
+          background: url('/images/icons/pricing/pricing-tick-inaccess-icon.svg');
         }
       }
     }

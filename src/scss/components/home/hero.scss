@@ -208,13 +208,13 @@
         &--green {
           color: #60d39c;
           &::before {
-            background: url(./images/icons/hero/arrow-up_icon.svg);
+            background: url('/images/icons/hero/arrow-up_icon.svg');
           }
         }
         &--red {
           color: #e35454;
           &::before {
-            background: url(./images/icons/hero/arrow-down_icon.svg);
+            background: url('/images/icons/hero/arrow-down_icon.svg');
           }
         }
         &--green::before,
