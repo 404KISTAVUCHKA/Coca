@@ -25,6 +25,10 @@
     "vite-plugin-minify": "^3.0.0"
   },
   "dependencies": {
+    "intl-tel-input": "^29.2.3",
     "swiper": "^14.2.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
   }
 }
